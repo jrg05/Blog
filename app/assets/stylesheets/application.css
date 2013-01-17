@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+.cabecera{ 
+	text-align: left;
+	background: blue;
+	height: 100%;
+	width: 100%;
+	float: left;
+	font-family: Arial;
+	font-size: 50px;
+}
+.Navegador{
+	height: 30px;
+	text-decoration: none;
+	font-family: Arial Black;
+	font-size: 13px;
+	float: left;
+	width: 100%;
+	background-color: #B0C4DE;
+}
+.Fotos{
+	font-family: Arial;
+	font-size: 15px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #FAF0E6;
+	margin-right: 13px
+}
+.articulo{
+	font-family: Arial;
+	font-size: 15px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	background-position: center;
+	background: #FAF0E6;
+	margin-right: 13px
+}
+.seccion{
+	background-color: #E6E6FA;
+}
+.Pie{
+	width: 100%;
+	height: 50%;
+	background: #CCCC99;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial;
+}
+h1{
+	font-family: Arial;
+	font-size: 20px;
+	color: #87CEEB;
+}
+h2{
+	font-family: Arial;
+	font-size: 15px;
+}
+h4{
+	font-family: cursive;
+}
+span{
+	font-weight: bold;
+	font-size: 12px;
+}
