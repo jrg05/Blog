@@ -17,9 +17,9 @@
 </div>
 <% @articulos.each do |article| %>
 	<div class="articulo">
-		<h1><%= article["titulo"] %></h1>
-		<p><%= article["contenido"] %></p>
-		<span><%= article["created_at"] %></span>
+		<h1><%= article["autor"] %></h1>
+		<p><%= article["titulo"] %></p>
+		<p> <%= article["cuerpo"]%></p>
 	</div>
 <% end %>
 <div class="Pie">
