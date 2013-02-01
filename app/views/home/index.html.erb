@@ -12,14 +12,14 @@
 </div>
  <div class="Fotos">
  	<blockquote><h1>Perfil</h1></blockquote>
- 	<img src="Imagenes/matematica-4.png" width="256" height="188" align="center" />
+ 	<img src="C:\Sites\demo\Images\alberteinstein.jpg" width="256" height="188" align="center" />
 <h4>"Uno sabe que hacer y como hacerlo si sabe comprenderlo"</h4>
 </div>
 <% @articulos.each do |article| %>
 	<div class="articulo">
-		<h1><%= article["autor"] %></h1>
-		<p><%= article["titulo"] %></p>
+		<h1><%= article["titulo"] %></h1>
 		<p> <%= article["cuerpo"]%></p>
+		<em><%= article["autor"] %></em>
 	</div>
 <% end %>
 <div class="Pie">
